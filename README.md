@@ -1,17 +1,45 @@
-# untitled
+# 📝 Todo App - Flutter
 
-A new Flutter project.
+A Todo mobile application built with Flutter and Dart, designed to help users create, manage, and organize their daily tasks through a clean and simple interface.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 🔐 User Sign Up & Login
+- ✅ Create and manage tasks
+- ✏️ Edit existing tasks
+- 🗑️ Delete tasks
+- 📅 Select task dates
+- ⏰ Select task times
+- 📆 Browse tasks by date
+- 🌙 Light & Dark Mode
+- 🌍 Arabic & English language support
+- 💾 Local task storage
+- ✔️ Mark tasks as completed
+- 📱 Clean and responsive mobile UI
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Technologies
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- Provider
+- Local Storage
+- Material Design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+
+```text
+lib/
+├── core/
+│   ├── colors/
+│   └── theme/
+├── models/
+├── providers/
+├── screens/
+│   ├── auth/
+│   ├── home/
+│   ├── add_task/
+│   ├── settings/
+│   └── splash/
+├── services/
+├── widgets/
+└── main.dart
